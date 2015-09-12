@@ -1,0 +1,6 @@
+[submodule "src"]
+	path = src
+	url = https://github.com/dz0ny/rt8192cu.git
+[submodule "patches/archlinux"]
+	path = patches/archlinux
+	url = https://aur.archlinux.org/8192cu-dkms.git
