@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index 3088a7c..0e8b137 100755
+--- a/Makefile
++++ b/Makefile
+@@ -29,7 +29,7 @@ CONFIG_PCI_HCI = n
+ CONFIG_SDIO_HCI = n
+ 
+ CONFIG_MP_INCLUDED = n
+-CONFIG_POWER_SAVING = y
++CONFIG_POWER_SAVING = n
+ CONFIG_USB_AUTOSUSPEND = n
+ CONFIG_HW_PWRP_DETECTION = n
+ CONFIG_WIFI_TEST = n

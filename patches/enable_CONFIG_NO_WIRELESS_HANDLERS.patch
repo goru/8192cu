@@ -1,0 +1,13 @@
+diff --git a/include/autoconf.h b/include/autoconf.h
+index 12294df..d64fe1f 100755
+--- a/include/autoconf.h
++++ b/include/autoconf.h
+@@ -102,7 +102,7 @@
+ 		#define CONFIG_HOSTAPD_MLME	1
+ 	#endif			
+ 	#define CONFIG_FIND_BEST_CHANNEL	1
+-	//#define CONFIG_NO_WIRELESS_HANDLERS	1
++	#define CONFIG_NO_WIRELESS_HANDLERS	1
+ #endif
+ 
+ //	Added by Albert 20110314
