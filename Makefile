@@ -1,9 +1,12 @@
-all:
+all: clean build
+
+clean:
 	# clean up src
 	cd src && \
 	git checkout . && \
 	git clean -df
-	
+
+build:
 	# apply arch patches
 	#patch -d src -p1 -i "../patches/archlinux/fix_310_proc2.patch"
 	patch -d src -p1 -i "../patches/archlinux/N150MA.patch"
